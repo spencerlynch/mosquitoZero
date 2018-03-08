@@ -442,8 +442,8 @@ iframe {
 }
 
 .section-aspire-images{
-	background: url(../images/tHill_hero.jpg) top center no-repeat;
-	background-size: cover;
+/*	background: url(../images/tHill_hero.jpg) top center no-repeat;
+*/	background-size: cover;
 	padding: 70px 0;
 }
 
@@ -698,7 +698,7 @@ ul.aspire-list li i{
 /* ========================================================== */
 
 .aspire-banner1{
-	background: url(http://placehold.it/760x385) top center no-repeat;
+	background: url(../images/faq.jpg) top center no-repeat;
 	background-size: cover;
 	padding: 40px 60px;
 	text-align: center;
@@ -732,9 +732,9 @@ ul.aspire-list li i{
 }
 
 .btn-white-aspire-ban {
-	color: #fff;
+	color: #31353b;
 	background-color: transparent;
-	border: 2px solid #fff;
+	border: 2px solid #31353b;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	line-height: 20px;
@@ -873,7 +873,7 @@ a:hover .btn-dark-aspire{
     line-height: 34px;
     font-weight: 500;
     text-transform: uppercase;
-    color: #dbdbdb;
+    color: #99cc66;
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
@@ -897,7 +897,7 @@ input.aspire-contact-input{
     padding-left:2%;
     padding-right:2%;
 	margin-bottom:15px;
-	color: #fff;
+	color: #99cc66;
 	background-color: #353736;
 	opacity: 0.75;
 	border:none!important;
@@ -930,7 +930,7 @@ textarea.aspire-contact-comment{
 }
 
 input.aspire-contact-submit{	
-	color: #fff;
+	color: #99cc66;
 	background-color: transparent;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
@@ -942,7 +942,7 @@ input.aspire-contact-submit{
 }
 
 input.aspire-contact-submit:hover{
-	color:#fff;
+	color:#353736;
 	background-color: transparent;
 	border:none;
 	cursor: pointer;
@@ -957,7 +957,7 @@ input.aspire-contact-submit:hover{
 }
 
 .aspire-contact-wrapper{
-	border: 2px solid #fff!important;
+	border: 2px solid #99cc66!important;
 	display: inline-block;
 	width: 96px;
 	height: 96px;
@@ -1192,7 +1192,7 @@ p.contact_success_box{
 /* VIDEO */
 
 .aspire-video-wrapper{
-	background: url(../images/aspire-video.jpg) top center no-repeat;
+	background: url(../images/hero.jpg) top center no-repeat;
 	background-size: cover;
 	padding: 120px 0;
 	position: relative;
@@ -1246,7 +1246,7 @@ p.contact_success_box{
 
 @media (max-width: 991px) {
 
-	.home-bkgaspire {padding-bottom: 40px;}	
+	.home-bkgaspire {padding-bottom: 0px;}	
 
 	.hero-bkgaspire-headings{padding: 40px 60px 40px 60px; margin-bottom: 10px;}
 

@@ -1,0 +1,1345 @@
+/*
+Template Name: EPIC - ASPIRE
+Author URI: 
+Author Name: Ioana
+Version: 1.0
+*/
+
+/* --- TABLE OF CONTENT
+
+01. GENERAL LAYOUT
+02. HOME-ASPIRE   
+03. ABOUT-ASPIRE 
+04. SERVICES/FEATURES
+05. REVIEWS 
+06. OFFERS   
+07. CONTACT & NEWSLETTER
+08. BLOG 
+09. FOOTER
+10. OTHER ELEMENTS   
+11. RESPONSIVE
+
+--- */
+
+/* ========================================================== */
+/* 			               01. GENERAL LAYOUT                 */
+/* ========================================================== */
+
+ul, ol { 
+	list-style: none; 
+	list-style-image: none; 
+	margin: 0; 
+	padding: 0;
+	font-size: 14px;
+	line-height:24px;
+	margin-bottom:20px;
+}
+	
+ul li, ol li{
+	font-size: 14px;
+	line-height: 28px;
+}
+
+ul li i{
+	vertical-align: middle;
+}
+
+p {
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #31353b;
+	margin-bottom:15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin-bottom:20px;
+  color: #2F362F;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+ul {
+	padding: 0;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+a:hover, a:focus, a:active, a:visited {
+	text-decoration: none;
+}
+
+iframe {
+    max-width: 100%;
+    border: none;
+}
+
+.white-text{ 
+	color: #fff;
+}
+
+.section-white {
+	background: #fff;
+	padding: 70px 0;
+}
+
+.section-white-small{
+	background: #fff;
+	padding: 30px 0;
+}
+
+.section-grey{
+	background: #f7f7f7;
+	padding: 70px 0;
+}
+
+.section-dark{
+	background-color:#0b0d0c;
+	padding:70px 0;
+}
+
+.section-dark-light{
+	background-color:#2f3237;
+	padding:70px 0;
+}
+
+.width-100{
+	width: 100%;
+}
+
+/* margin and padding classes */
+
+.margin-right-25 {
+	margin-right: 25px !important;
+}
+
+.margin-top-110 {
+	margin-top: 110px !important;
+}
+
+.margin-top-100 {
+	margin-top: 100px !important;
+}
+
+.margin-top-90 {
+	margin-top: 90px !important;
+}
+
+.margin-top-80 {
+	margin-top: 80px !important;
+}
+
+.margin-top-60 {
+	margin-top: 60px !important;
+}
+
+.margin-top-50 {
+	margin-top: 50px !important;
+}
+
+.margin-top-40 {
+	margin-top: 40px !important;
+}
+
+.margin-top-35 {
+	margin-top: 35px !important;
+}
+
+.margin-top-30 {
+	margin-top: 30px !important;
+}
+
+.margin-top-20 {
+	margin-top: 20px !important;
+}
+
+.margin-top-10 {
+	margin-top: 10px !important;
+}
+
+.margin-top-5 {
+	margin-top: 5px !important;
+}
+
+.margin-bottom-0 {
+	margin-bottom: 0px !important;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px !important;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px !important;
+}
+
+.margin-bottom-30 {
+	margin-bottom: 30px !important;
+}
+
+.margin-bottom-40 {
+	margin-bottom: 40px !important;
+}
+
+.margin-bottom-50 {
+	margin-bottom: 50px !important;
+}
+
+.margin-bottom-60 {
+	margin-bottom: 60px !important;
+}
+
+.margin-bottom-70 {
+	margin-bottom: 70px !important;
+}
+
+.margin-bottom-80 {
+	margin-bottom: 80px !important;
+}
+
+.margin-bottom-100 {
+	margin-bottom: 100px !important;
+}
+
+.margin-bottom-120 {
+	margin-bottom: 120px !important;
+}
+
+.margin-bottom-130 {
+	margin-bottom: 120px !important;
+}
+
+.margin-bottom-140 {
+	margin-bottom: 140px !important;
+}
+
+.padding-top-0 {
+	padding-top: 0px !important;
+}
+
+.padding-top-10 {
+	padding-top: 10px !important;
+}
+
+.padding-top-20 {
+	padding-top: 20px !important;
+}
+.padding-top-25 {
+	padding-top: 25px !important;
+}
+
+.padding-top-30 {
+	padding-top: 30px !important;
+}
+
+.padding-top-40 {
+	padding-top: 40px !important;
+}
+
+.padding-top-45 {
+	padding-top: 45px !important;
+}
+
+.padding-top-50 {
+	padding-top: 50px !important;
+}
+.padding-top-60 {
+	padding-top: 60px !important;
+}
+
+.padding-top-70 {
+	padding-top: 70px !important;
+}
+
+.padding-top-80 {
+	padding-top: 80px !important;
+}
+
+.padding-top-100 {
+	padding-top: 180px !important;
+}
+
+.padding-bottom-70 {
+	padding-bottom: 70px !important;
+}
+
+.padding-bottom-60 {
+	padding-bottom: 60px !important;
+}
+
+.padding-bottom-50 {
+	padding-bottom: 50px !important;
+}
+
+.padding-bottom-40 {
+	padding-bottom: 40px !important;
+}
+
+.padding-bottom-30 {
+	padding-bottom: 30px !important;
+}
+
+.padding-bottom-20 {
+	padding-bottom: 20px !important;
+}
+
+.padding-bottom-10 {
+	padding-bottom: 10px !important;
+}
+
+.padding-bottom-0 {
+	padding-bottom: 0px !important;
+}
+
+.margin-top-0 {
+	margin-top: 0px !important;
+}
+
+/* ========================================================== */
+/* 			               02. MENU-NAV                       */
+/* ========================================================== */
+
+.logo{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 34px!important;
+	color: #ccc;	
+	padding: 10px 20px!important;
+	text-transform: uppercase;
+	color: #dbdbdb!important;
+	display: none;
+}
+
+#navbar-collapse-02 li.selected a{
+    color: #fff!important;
+    border-bottom: 2px solid #eee!important;
+}
+
+.navbar-fixed-top #navbar-collapse-02 .current a {
+    color:#ffffff!important;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.navbar-fixed-top.opaque #navbar-collapse-02 .current a {
+    color:#fff!important;
+     -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.navbar {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.navbar-fixed-top { 
+	background: transparent!important; 
+	border-bottom: none;
+	transition: background-color 1s ease 0s;
+}
+
+.navbar-fixed-top.opaque {
+	background-color: rgba(11,13,12, 0.99)!important;
+	padding: 10px 0;
+	transition: all 1s ease-in-out 0s;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover{
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:#dbdbdb!important;
+	font-size: 16px !important;
+	line-height: 30px !important;
+	text-transform: uppercase;
+	padding: 10px 20px!important;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav > li > a#logo{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 34px!important;
+	padding: 10px 20px!important;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #dbdbdb;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+/* ========================================================== */
+/* 			               03. HOME-ASPIRE                    */
+/* ========================================================== */
+
+.home-bkgaspire {
+	background: url(../images/tHill_hero.jpg) top center no-repeat;
+	background-size: cover;
+	padding-top: 120px;
+	height: 100%;
+}
+
+.section-aspire-images{
+	background: url(../images/tHill_hero.jpg) top center no-repeat;
+	background-size: cover;
+	padding: 70px 0;
+}
+
+.home-bkgaspire img{
+	width: 480px;
+}
+
+.hero-bkgaspire-headings {
+	position:relative;
+	margin-bottom: 40px;
+	text-align: center;
+	padding: 120px 30px 40px 30px;
+}
+
+.hero-bkgaspire-headings h1{	
+	font-size: 36px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 60px;
+	font-weight: 500;
+	display: inline-block;
+	margin-bottom: 10px;
+	color: #99cc66;
+	text-transform: uppercase;
+}
+
+.hero-bkgaspire-headings a{
+	position: relative;
+}
+
+.btn-white-aspire {
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid #99cc66;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	display: inline-block;
+	padding: 35px 11px;
+	border-radius: 50%;
+	margin-top: 40px;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	z-index: 10;
+}
+
+.btn-white-aspire:before {
+	content: '';
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    top:50%;
+    margin-top: -48px;	
+    left:50%;
+    margin-left:-48px;
+
+    -webkit-animation: doublePulsation 1.9s ease infinite;
+    animation: doublePulsation 1.9s ease infinite;
+    z-index: 0;
+}
+
+@-webkit-keyframes doublePulsation {
+     0% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
+    50% {opacity: 0.55;}
+    100% {-webkit-transform: scale(1.3, 1.3); opacity: 0.0;}
+}
+
+@keyframes doublePulsation {
+     0% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
+    50% {opacity: 0.55;}
+    100% {-webkit-transform: scale(1.3, 1.3); opacity: 0.0;}
+}
+
+.btn-white-aspire:hover {
+	color: #333;
+	background-color: #fff;
+}
+
+/* ========================================================== */
+/* 			               04. ABOUT-ASPIRE                   */
+/* ========================================================== */
+
+.about-bkgaspire {
+	background: url(../images/aspire-aboutimg.png) top center no-repeat;
+	padding: 100px 0;
+}
+
+.section-dark .aspire-headings h2{
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #dbdbdb;
+}
+
+.section-dark .aspire-headings p{
+	color: #fff;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.aspire-abouthover{
+	text-align: center!important;
+	padding: 60px 40px 40px 40px;
+	border: 1px solid #acaeb0;	
+	border-radius: 2%;	
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.aspire-abouticon {
+	margin-bottom: 20px;
+	text-align: center!important;
+}
+
+.aspire-aboutbox2 h5 {
+	font-size: 18px;
+	margin-bottom: 15px;
+	color: #dbdbdb;
+	letter-spacing: 1px;
+}
+
+.aspire-aboutbox2 p {
+	font-size: 14px;
+	color: #acaeb0;
+}
+
+/* ========================================================== */
+/* 			               05. SERVICES/FEATURES              */
+/* ========================================================== */
+
+.section-white-aspire{
+	padding-top: 40px;
+}
+
+.section-white-aspire .aspire-headings{
+	padding: 60px 10px 10px 10px;
+}
+
+.aspire-headings h2{
+	font-size: 30px;
+	line-height: 34px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.aspire-headings p{
+	font-size: 16px;
+	line-height: 26px;
+}
+
+ul.aspire-list li {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+ul.aspire-list li i{
+	margin-right: 10px;
+}
+
+.section-white-aspire img{
+	width: 480px;
+}
+
+/* ========================================================== */
+/* 			               06. REVIEWS                        */
+/* ========================================================== */
+
+.section-aspire-images .aspire-headings h2{
+	font-size: 30px;
+	line-height: 34px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #dbdbdb;	
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.aspire-tesim-wrapper{
+	margin: 20px 0;
+	padding: 10px 30px;
+	overflow: hidden;
+}
+
+.aspire-tesimonial{
+	position: relative;
+}
+
+.aspire-tesim-wrapper .aspire-tesimonial p{
+	color: #dbdbdb;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 20px;
+}
+
+.aspire-tesim-wrapper .aspire-tesimonial span.testim-arrow{
+	background: none repeat scroll 0 0 #0b0d0c;
+    border-right: 1px solid #f1f7f7;
+    border-bottom: 1px solid #f1f7f7;
+    display: block;
+    width: 12px;
+    height: 12px;
+    left: 55px;
+    bottom: -6px;
+    position: absolute;
+    z-index: 50;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.aspire-tesim-wrapper img{
+	float: left;
+    padding: 2px 2px;
+    margin-left: 20px;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 50% 50%;
+    -moz-border-radius: 50% 50%;
+    border-radius: 50% 50%;
+}
+
+.aspire-tesim-wrapper p.testim-author{
+	float: left;
+	color: #dbdbdb;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	border-bottom: none;
+	margin-top: 20px;
+	margin-left: 20px
+}
+
+.aspire-tesim-wrapper p.testim-author span{
+	font-size: 18px;
+	font-weight: 800;
+}
+
+/* ========================================================== */
+/* 			               07. OFFERS                         */
+/* ========================================================== */
+
+.aspire-banner1{
+	background: url(http://placehold.it/760x385) top center no-repeat;
+	background-size: cover;
+	padding: 40px 60px;
+	text-align: center;
+	margin-right: -15px;
+	margin-left: -15px;
+	min-height: 355px;
+}
+
+.aspire-banner2{
+	background: url(http://placehold.it/760x385) top center no-repeat;
+	background-size: cover;
+	padding: 40px 60px;
+	text-align: center;
+	margin-right: -15px;
+	margin-left: -15px;
+	min-height: 355px;
+}
+
+.aspire-banner1 h3, .aspire-banner2 h3{	
+	color: #fff;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.btn-white-ban-wrapper{
+	position: relative;
+}
+
+.btn-white-aspire-ban {
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	display: inline-block;
+	padding: 20px 20px;
+	border-radius: 50%;
+	margin-top: 40px;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	z-index: 10;
+}
+
+.btn-white-aspire-ban:before {
+	content: '';
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    left:50%;
+    margin-left: -40px;
+    bottom: 10%;
+    margin-bottom: -10px;
+
+    -webkit-animation: doublePulsation 1.9s ease infinite;
+    animation: doublePulsation 1.9s ease infinite;
+    z-index: 0;
+}
+
+@-webkit-keyframes doublePulsation {
+     0% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
+    50% {opacity: 0.55;}
+    100% {-webkit-transform: scale(1.3, 1.3); opacity: 0.0;}
+}
+
+@keyframes doublePulsation {
+     0% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
+    50% {opacity: 0.55;}
+    100% {-webkit-transform: scale(1.3, 1.3); opacity: 0.0;}
+}
+
+.btn-white-aspire-ban:hover {
+	color: #333;
+	background-color: #fff;
+}
+
+.fixed-high{
+	min-height: 600px;
+}
+
+.aspire-productbox{
+	text-align: center;	
+    margin: 20px auto;
+    width: 80%;
+}
+
+.aspire-productbox h4{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;	
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.aspire-productbox .aspire-imagebox{
+	display: block;
+	position: relative;
+    text-align: center;
+}
+
+.aspire-productbox .aspire-hoverbox{
+	text-align: center;
+	position: absolute;
+	top:19%;
+	left: 10;
+	width: 80%;
+    height: auto;
+    padding: 30px 40px 40px 40px;
+    display: none;
+	background: #fff;
+	border: 1px solid #525252;
+	border-radius: 2%;
+}
+
+.aspire-productbox:hover .aspire-hoverbox{
+	display: block;
+	margin: 0 auto;
+}
+
+.aspire-productbox:hover .aspire-imagebox{
+	opacity: 0;
+}
+
+.aspire-productbox .aspire-hoverbox p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.btn-wrapperr-aspire{
+	border: 1px solid #2F362F;
+	display: inline-block;
+	padding: 5px 5px;
+	border-radius: 50%;
+	margin-top: 20px;
+	transition: all 0.6s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+.btn-dark-aspire {
+	color: #2F362F;
+	background-color: #fff;
+	border: 1px solid #2F362F;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	display: inline-block;
+	padding: 25px 15px;
+	border-radius: 50%;
+	transition: all 0.6s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+a:hover .btn-dark-aspire{
+	background: #2F362F;
+	color: #fff;
+}
+
+/* ========================================================== */
+/* 			 08. CONTACT & NEWSLETTER                         */
+/* ========================================================== */
+
+.section-aspire-images .aspire-headings h3{
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #dbdbdb;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.section-dark .aspire-headings p{
+	color: #fff;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+	margin:20px auto;
+	width:70%;
+}
+
+input.aspire-contact-input{
+	width:100%;
+	height:55px;
+    padding-left:2%;
+    padding-right:2%;
+	margin-bottom:15px;
+	color: #fff;
+	background-color: #353736;
+	opacity: 0.75;
+	border:none!important;
+    border: none!important;
+	font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    text-align: left;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+textarea.aspire-contact-comment{
+	height:135px;
+	margin-bottom:15px;
+	width:100%;
+    padding-left:2%;
+    padding-right:2%;
+    padding-top:10px;
+    padding-bottom:10px;
+	color: #fff;
+	background-color: #353736;
+	opacity: 0.75;
+    border: none!important;
+	font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+input.aspire-contact-submit{	
+	color: #fff;
+	background-color: transparent;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 90px;
+	border: none;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	z-index: 9999;
+}
+
+input.aspire-contact-submit:hover{
+	color:#fff;
+	background-color: transparent;
+	border:none;
+	cursor: pointer;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+	z-index: 9999;
+}
+
+.aspire-contact{
+	position: relative;
+}
+
+.aspire-contact-wrapper{
+	border: 2px solid #fff!important;
+	display: inline-block;
+	width: 96px;
+	height: 96px;
+	-webkit-border-radius:50% 50%;
+    -moz-border-radius: 50% 50%;;
+	border-radius: 50% 50%;
+	margin-top: 40px;
+	z-index: 10;
+	position: relative;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+.aspire-contact-wrapper:before {
+	content: '';
+    width: 96px;
+    height: 96px;
+   	position: absolute;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    left: 50%;
+    margin-left: -48px;
+    bottom: 10%;
+    margin-bottom: -12px;
+    display: inline-block;
+    -webkit-animation: doublePulsation 1.9s ease infinite;
+    animation: doublePulsation 1.9s ease infinite;
+    z-index: -10;
+}
+
+@-webkit-keyframes doublePulsation {
+     0% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
+    50% {opacity: 0.55;}
+    100% {-webkit-transform: scale(1.3, 1.3); opacity: 0.0;}
+}
+
+@keyframes doublePulsation {
+     0% {-webkit-transform: scale(1.0, 1.0); opacity: 0.0;}
+    50% {opacity: 0.55;}
+    100% {-webkit-transform: scale(1.3, 1.3); opacity: 0.0;}
+}
+
+.aspire-contact-wrapper:hover {
+	background: #fff;
+}
+
+.aspire-contact-wrapper:hover input.aspire-contact-submit{
+	color: #333;
+}
+
+input.white-input::-webkit-input-placeholder,
+textarea.white-input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#7c8595;
+}
+input.white-input:-moz-placeholder,
+textarea.white-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#7c8595;
+}
+input.white-input::-moz-placeholder,
+textarea.white-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#7c8595;
+}
+input.white-input:-ms-input-placeholder,
+textarea.white-input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#7c8595;
+}
+
+#contact-form input.aspire-contact-input:focus, 
+#contact-form textarea.aspire-contact-comment:focus {
+  border-color:#fff;
+  outline: none;
+}
+
+p.contact_success_box{
+	display:inline-block;
+	color:#454545;
+	font-size:20px;
+	font-style:italic;
+	padding:20px 20px;
+	border:1px solid #fff;
+	webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* ========================================================== */
+/* 			                09. BLOG                          */
+/* ========================================================== */
+
+.section-image-aspire{
+	background: url(../images/aspire-imagebkg.png) top center no-repeat;
+	background-size: cover;
+	padding: 90px 0;
+}
+
+.aspire-blogpost{
+	padding: 20px 10px;
+}
+
+.aspire-blogpost span{
+	display: block;	
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.aspire-blogpost h4{
+	font-size: 28px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.aspire-blogpost a, .aspire-blogpost a i{
+	color: #000;
+}
+
+.aspire-blogpost a i{
+	margin-right: 5px;
+}
+
+.aspire-blogpost2{
+	padding: 10px 10px;
+	margin: 20px 0;
+}
+
+.aspire-blogpost2 span{
+	display: block;	
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.aspire-blogpost2 h4{
+	font-size: 24px;
+	font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.aspire-blogpost2 p{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.aspire-blogpost2 a{
+	color: #000;
+    font-size: 12px;
+}
+
+.aspire-blogpost2 a i{
+	margin-right: 5px;
+}
+
+/* ========================================================== */
+/* 			                10. FOOTER                        */
+/* ========================================================== */
+
+.aspire-footer {
+	z-index:900;
+	background-color: #0b0d0c;
+	font-weight: 300;
+}
+
+.aspire-socialbox-wrapper{
+	border-bottom: 1px solid #333;
+}
+
+.aspire-socialbox{
+	padding: 40px 40px;
+	border-right: 1px solid #444;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.aspire-socialbox:hover{
+	background: #1b1d1c;
+}
+
+.aspire-socialbox i{
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.aspire-socialbox p{
+	color: #dbdbdb;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.aspire-footer-wrapper{
+	padding: 10px 0;
+}
+
+.aspire-footer-box{
+	padding: 10px 10px;
+	margin: 0 auto;
+}
+
+.aspire-footer-box i{
+	float: left;
+	font-size: 20px;
+	line-height: 30px;
+	margin-right: 15px;
+	color: #3b3f47;
+}
+
+.aspire-footer-box span{
+	margin-top: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.aspire-footer p.aspire-copyright{
+	padding: 40px 0;
+	color: #555;
+}
+
+.aspire-footer p.aspire-copyright a{
+	color: #dbdbdb;
+}
+
+
+/* ========================================================== */
+/* 			               11. OTHER ELEMENTS                 */
+/* ========================================================== */
+
+/* VIDEO */
+
+.aspire-video-wrapper{
+	background: url(../images/aspire-video.jpg) top center no-repeat;
+	background-size: cover;
+	padding: 120px 0;
+	position: relative;
+	text-align: center;
+}
+
+.aspire-video-wrapper h4{
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.aspire-video-icon {
+	width: 100px;
+	height: 100px;
+	border:2px solid #fff;
+	border-radius: 50% 50%;
+	display: inline-block;
+	background: transparent;
+	transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+.aspire-video-icon:hover{
+	background: rgba(34, 34, 34, 0.70);
+}
+
+.aspire-video-icon:hover i{
+	color: #fff;
+}
+
+.aspire-video-icon i {
+	font-size: 60px;
+	line-height: 100px;
+	color:#fff;
+	margin-left: 10px;
+	transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+/* ========================================================== */
+/* 			               12. RESPONSIVE                     */
+/* ========================================================== */
+
+@media (min-width: 992px) and (max-width: 1199px){
+}
+
+@media (max-width: 991px) {
+
+	.home-bkgaspire {padding-bottom: 40px;}	
+
+	.hero-bkgaspire-headings{padding: 40px 60px 40px 60px; margin-bottom: 10px;}
+
+	.section-white-aspire{	padding-top: 40px;}
+
+	.section-white-aspire .aspire-headings{ padding-top: 40px;}
+
+	.section-white {padding: 40px 0;}
+
+	.aspire-productbox .aspire-imagebox img{ width: 260px;}
+
+	.aspire-productbox .aspire-hoverbox{ padding: 20px 20px;}
+
+	.section-aspire-images{padding: 40px 0;}
+
+	.aspire-tesim-wrapper{margin: 40px 0;}
+
+	.section-grey {padding: 40px 0;}
+
+	.section-dark {padding: 40px 0;}
+
+	.aspire-blogpost2{margin: 40px 0;}
+
+	.aspire-banner1,.aspire-banner2 {margin-bottom: 20px;}
+
+	.aspire-socialbox{
+		border-right: none;
+		padding: 20px 20px;
+	}
+
+	.aspire-socialbox.facebook, .aspire-socialbox.instagram{		
+		background: #1b1d1c;
+	}
+
+	.aspire-socialbox:hover{
+		background: #1b1d1c;
+	}
+
+	.aspire-socialbox.twitter, .aspire-socialbox.pinterest{		
+		background: inherit;
+	}
+
+	.home-bkgaspire img{
+		width: 320px;
+	}
+
+	.section-white-aspire img{
+		width: 320px;
+	}
+
+	.logo{
+		display: inline;
+		padding: 0 20px;
+	}
+
+}	
+
+@media (max-width: 767px) {
+
+	.aspire-socialbox{
+		border-right: none;
+		border-bottom: none;
+	}
+
+	.aspire-socialbox.facebook, .aspire-socialbox.pinterest{
+		background: #1b1d1c;
+	}
+
+	.aspire-socialbox:hover {		
+		background: #1b1d1c;
+	}
+
+	.aspire-socialbox.instagram, .aspire-socialbox.twitter {		
+		background: inherit;
+	}
+
+	.hero-bkgaspire-headings h1{
+		font-size: 30px;
+	}
+	
+}
+
+@media (max-width: 480px) {
+
+	.hero-bkgaspire-headings h1{
+		font-size: 26px;
+	}
+
+	.hero-bkgaspire-headings{padding: 40px 20px 40px 20px; margin-bottom: 10px;}
+}
+
+
+
+
+
+

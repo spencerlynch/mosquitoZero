@@ -68,8 +68,8 @@ h5,
 h6 {
   line-height: 1.2;
   margin-bottom:20px;
-  color: #2F362F;
-  font-family: 'PT Sans', sans-serif;
+  color: #99cc66;
+  font-family: 'Mina', sans-serif;
 }
 
 h1 {
@@ -616,6 +616,10 @@ ul.aspire-list li i{
 /* ========================================================== */
 /* 			               06. REVIEWS                        */
 /* ========================================================== */
+
+.testimonials {
+	background: #353736;
+}
 
 .section-aspire-images .aspire-headings h2{
 	font-size: 30px;

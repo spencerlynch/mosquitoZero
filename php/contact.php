@@ -12,9 +12,9 @@ $field_zip = $_POST['zip'];
 
 $field_message = $_POST['message'];
 
-$mail_to = 'spencer.lynch@workwithspencer.com';
+$mail_to = 'spencer.lynch9@yahoo.com';
 
-$subject = 'Free Quote Inquiry '.$field_first_name;
+$subject = 'Free Quote Inquiry: '.$field_first_name;
 
 $body_message = 'From: '.$field_first_name."\n";
 

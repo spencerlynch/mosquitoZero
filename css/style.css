@@ -441,8 +441,8 @@ iframe {
 	height: 100%;
 }
 
-.section-aspire-images{
-/*	background: url(../images/tHill_hero.jpg) top center no-repeat;
+.section-aspire-images {
+/*	background: url(../images/grass.png) top center no-repeat;
 */	background-size: cover;
 	padding: 70px 0;
 }
@@ -868,6 +868,11 @@ a:hover .btn-dark-aspire{
 /* 			 08. CONTACT & NEWSLETTER                         */
 /* ========================================================== */
 
+.contact-section {
+	background: url(../images/grass.png) top center no-repeat;
+	background-size: cover;
+}
+
 .section-aspire-images .aspire-headings h3{
     font-size: 30px;
     line-height: 34px;
@@ -957,6 +962,7 @@ input.aspire-contact-submit:hover{
 }
 
 .aspire-contact-wrapper{
+	background: #353736;
 	border: 2px solid #99cc66!important;
 	display: inline-block;
 	width: 96px;
@@ -1001,11 +1007,12 @@ input.aspire-contact-submit:hover{
 }
 
 .aspire-contact-wrapper:hover {
-	background: #fff;
+	background: #99cc66;
+	border: 2px solid #353736!important;
 }
 
 .aspire-contact-wrapper:hover input.aspire-contact-submit{
-	color: #333;
+	color: #353736;
 }
 
 input.white-input::-webkit-input-placeholder,
@@ -1041,75 +1048,6 @@ p.contact_success_box{
 	webkit-border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
-}
-
-/* ========================================================== */
-/* 			                09. BLOG                          */
-/* ========================================================== */
-
-.section-image-aspire{
-	background: url(../images/aspire-imagebkg.png) top center no-repeat;
-	background-size: cover;
-	padding: 90px 0;
-}
-
-.aspire-blogpost{
-	padding: 20px 10px;
-}
-
-.aspire-blogpost span{
-	display: block;	
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-style: italic;
-    margin-bottom: 10px;
-}
-
-.aspire-blogpost h4{
-	font-size: 28px;
-	font-weight: 400;
-	margin-bottom: 10px;
-}
-
-.aspire-blogpost a, .aspire-blogpost a i{
-	color: #000;
-}
-
-.aspire-blogpost a i{
-	margin-right: 5px;
-}
-
-.aspire-blogpost2{
-	padding: 10px 10px;
-	margin: 20px 0;
-}
-
-.aspire-blogpost2 span{
-	display: block;	
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    font-style: italic;
-    margin: 5px 0;
-}
-
-.aspire-blogpost2 h4{
-	font-size: 24px;
-	font-weight: 400;
-    margin-bottom: 5px;
-}
-
-.aspire-blogpost2 p{
-    font-size: 13px;
-    margin-bottom: 5px;
-}
-
-.aspire-blogpost2 a{
-	color: #000;
-    font-size: 12px;
-}
-
-.aspire-blogpost2 a i{
-	margin-right: 5px;
 }
 
 /* ========================================================== */
@@ -1207,34 +1145,6 @@ p.contact_success_box{
     color: #fff;
     letter-spacing: 1px;
     margin-bottom: 30px;
-}
-
-.aspire-video-icon {
-	width: 100px;
-	height: 100px;
-	border:2px solid #fff;
-	border-radius: 50% 50%;
-	display: inline-block;
-	background: transparent;
-	transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-}
-
-.aspire-video-icon:hover{
-	background: rgba(34, 34, 34, 0.70);
-}
-
-.aspire-video-icon:hover i{
-	color: #fff;
-}
-
-.aspire-video-icon i {
-	font-size: 60px;
-	line-height: 100px;
-	color:#fff;
-	margin-left: 10px;
-	transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
 }
 
 /* ========================================================== */

@@ -594,6 +594,8 @@ iframe {
 	font-weight: 500;
 	text-transform: uppercase;
 	margin-bottom: 25px;
+	font-family: 'Mina', sans-serif;
+
 }
 .aspire-headings p{
 	font-size: 16px;
@@ -629,6 +631,8 @@ ul.aspire-list li i{
 	color: #dbdbdb;	
     letter-spacing: 1px;
     margin-bottom: 20px;
+	font-family: 'Mina', sans-serif;
+
 }
 
 .aspire-tesim-wrapper{
@@ -729,6 +733,8 @@ ul.aspire-list li i{
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 10px;
+	font-family: 'Mina', sans-serif;
+
 }
 
 .btn-white-ban-wrapper{

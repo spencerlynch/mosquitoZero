@@ -474,10 +474,10 @@ iframe {
 }
 
 .btn-white-aspire {
-	color: #fff;
-	background-color: transparent;
-	border: 2px solid #99cc66;
-	font-family: 'Montserrat', sans-serif;
+	color: #99cc66;
+	background-color: #353736;
+	border: 2px solid #99cc66!important;
+	font-family: 'Mina', sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	display: inline-block;
@@ -504,6 +504,11 @@ iframe {
     -webkit-animation: doublePulsation 1.9s ease infinite;
     animation: doublePulsation 1.9s ease infinite;
     z-index: 0;
+}
+
+a:hover .btn-white-aspire{
+	background: #99cc66;
+	border: 2px solid #353736!important;
 }
 
 @-webkit-keyframes doublePulsation {

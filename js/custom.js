@@ -129,37 +129,6 @@ $(window).on('load', function(){
 
 
 	/* ========================================================== */
-	/*   Popup-Gallery                                            */
-	/* ========================================================== */
-	$('.popup-gallery').find('a.popup1').magnificPopup({
-		type: 'image',
-		gallery: {
-		  enabled:true
-		}
-	}); 
-	
-	$('.popup-gallery').find('a.popup2').magnificPopup({
-		type: 'image',
-		gallery: {
-		  enabled:true
-		}
-	}); 
- 
-	$('.popup-gallery').find('a.popup3').magnificPopup({
-		type: 'image',
-		gallery: {
-		  enabled:true
-		}
-	}); 
- 
-	$('.popup-gallery').find('a.popup4').magnificPopup({
-		type: 'iframe',
-		gallery: {
-		  enabled:false
-		}
-	});  
-
-	/* ========================================================== */
 	/*   Animated-Features                                        */
 	/* ========================================================== */
  
@@ -167,3 +136,13 @@ $(window).on('load', function(){
  		{if($(this).parents('.visage-feature').hasClass('feature-show'))
  			{$(this).parents('.visage-feature').removeClass('feature-show')}
  		else {$(this).parents('.visage-feature').addClass('feature-show')}});
+
+	/* ========================================================== */
+	/*   FAQ Accordian                                            */
+	/* ========================================================== */
+    // Since there's no list-group/tab integration in Bootstrap
+    $('.list-group-item').on('click',function(e){
+     	var previous = $(this).closest(".list-group").children(".active");
+     	previous.removeClass('active'); // previous list-item
+     	$(e.target).addClass('active'); // activated list-item
+   		});

@@ -328,7 +328,7 @@
 									</a>
 									<div id="q1" class="collapse in">
 										<div class="panel-body">
-											<p>Our treatment is guaranteed to reduce mosquito populations by 90%.</p>
+											<p>A mosquito free property is our ultimate goal, but we can only guarantee a 90% reduction for your lawn. Every property is different when it comes to the abundance of mosquitos, but we always guarantee 100% satisfaction for our customers. If for some reason you are not satisfied, call us and we will be happy to reassess your lawn.</p>
 										</div>
 									</div>
 								</div>
@@ -336,38 +336,12 @@
 								<div class="panel panel-default panel-help">
             						<a href="#q2" data-toggle="collapse" data-parent="#help-accordion-1">
 										<div class="panel-heading">
-											<h4>How Long do treatments last?</h4>
+											<h4>How long do treatments last?</h4>
 										</div>
 									</a>
 									<div id="q2" class="collapse">
 										<div class="panel-body">
-											<p>We guarantee you will notice at least a 90% decrease in mosquito activity and population for the duration of 21 days.</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="panel panel-default panel-help">
-            						<a href="#q3" data-toggle="collapse" data-parent="#help-accordion-1">
-										<div class="panel-heading">
-											<h4>What does your guarantee include?</h4>
-										</div>
-									</a>
-									<div id="q3" class="collapse">
-										<div class="panel-body">
-											<p>100% Satisfaction Guarantee</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="panel panel-default panel-help">
-									<a href="#q4" data-toggle="collapse" data-parent="#help-accordion-1">
-										<div class="panel-heading">
-											<h4>Do you do rain checks?</h4>
-										</div>
-									</a>
-									<div id="q4" class="collapse">
-										<div class="panel-body">
-											<p>Yes, if the weather is inclement, we will reschedule our treatment for another time/day.</p>
+											<p>We guarantee a residual of 21 days. After the 21 days, our team will be ready to treat your yard again!</p>
 										</div>
 									</div>
 								</div>
@@ -380,7 +354,7 @@
 									</a>
 									<div id="q5" class="collapse">									
 										<div class="panel-body">
-											<p>Nah.</p>
+											<p>Our treatments do not require the customer to be home. We inform each customer the Sunday before each scheduled treatment of when the Mosquito Zero team will be on his or her property. After each treatment, a service receipt is left to inform the customer of when we were there. </p>
 										</div>
 									</div>
 								</div>
@@ -393,7 +367,7 @@
 									</a>
 									<div id="q6" class="collapse">
 										<div class="panel-body">
-											<p>see picture</p>
+											<p>When applying the barrier treatment, The only grass sprayed is when walking the perimeter of your property. Mosquitos do seek shelter in grass. This is why majority of treatment is directed towards bushes, trees, under decks, gutters, and landscaping.</p>
 										</div>
 									</div>
 								</div>
@@ -401,12 +375,12 @@
 								<div class="panel panel-default panel-help">
 									<a href="#q7" data-toggle="collapse" data-parent="#help-accordion-1">
 										<div class="panel-heading">
-											<h4>Do treatments include other pests?</h4>
+											<h4>Do Mosquito Zero treatments include other pests?</h4>
 										</div>
 									</a>
 									<div id="q7" class="collapse">
 										<div class="panel-body">
-											<p>No, just skeeters</p>
+											<p>All of Mosquito Zero treatments are centered on controlling mosquitos. However, our formula will help reduce ticks, fleas, flies, and gnats. We do not guarantee the reduction in other pests.</p>
 										</div>
 									</div>
 								</div>
@@ -419,7 +393,7 @@
 									</a>
 									<div id="q8" class="collapse">
 										<div class="panel-body">
-											<p>At least 25 minutes</p>
+											<p>You may return to the lawn after only 60 minutes upon completion of the treatment. The formula takes 30 minutes to dry, and 30 minutes to fully absorb. After the 60 minutes, it is completely safe to return to any outdoor activities.</p>
 										</div>
 									</div>
 								</div>
@@ -543,37 +517,94 @@
 	        <div class="row">
 
 				<!--begin col md 10 -->
-				<div class="col-md-10 col-md-offset-1 text-center">
+				<div class="col-md-10 col-md-offset-1 col-sm-6 col-xs-12 text-center wow fadeInBottom" data-wow-delay="0.2s">
 
 					<div class="aspire-headings margin-bottom-40">
 
-						<h3>We Fight the Bite, FOR YOU!</h3>
-
 					</div>	
 
-					<!--begin success message -->
-                    <p class="contact_success_box" style="display:none;">We received your message and you'll hear from us soon. Thank You!</p>
-                    <!--end success message -->
-                    
-                    <!--begin contact form -->
-                    <form id="contact-form" class="aspire-contact" action="php/contact.php" method="post">
-                    
-                        <input class="aspire-contact-input" required="" name="contact_names" placeholder="Full Name" type="text">
-                        <input class="aspire-contact-input" required="" name="contact_email" placeholder="Email Address" type="email">
-                        <input class="aspire-contact-input" required="" name="contact_street" placeholder="Street Address" type="address">
-                        <input class="aspire-contact-input" required="" name="contact_zip" placeholder="Postal / Zip Code" type="zip">
+					<div class="form-style">
+					    <div class="form-style-heading"><h3>We Fight the Bite, FOR YOU!</h3></div>
+					    <div id="contact_results"></div>
+					    <div id="contact_body">
+					    <form action="php/contact_me.php" method="POST" id="my_form" novalidate>
+					        <label><span>First Name <span class="required">*</span></span>
+					            <input type="text" name="user_firstName" required class="input-field"/>
+					        </label>
+					        <label><span>Last Name <span class="required">*</span></span>
+					            <input type="text" name="user_lastName" required class="input-field"/>
+					        </label>
+					        <label><span>Email <span class="required">*</span></span>
+					            <input type="email" name="user_email" required class="input-field"/>
+					        </label>
+					        <label><span>Phone </span>
+					            <input type="number" name="phone_number" maxlength="15" class="tel-number-field long" required/>
+					        </label>
+					        <label for="field5"><span>Message <span class="required">*</span></span>
+					            <textarea name="message" id="message" class="textarea-field" required></textarea>
+					        </label>
+					        <label>
+					            <span>&nbsp;</span><input type="submit" id="submit_btn" value="Submit" />
+					        </label>
+					     </form>
+					    </div>
+					</div>
 
-						<textarea class="aspire-contact-comment" rows="2" cols="20" name="contact_message" placeholder="Additional comments..."></textarea>
-                        
-                        <div class="aspire-contact-wrapper">
+					<!-- include Google hosted jQuery Library -->
+					<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+					<!-- Start jQuery code -->
+					<script type="text/javascript">
+					$("#my_contact_form").submit(function(e){
+					    e.preventDefault(); //prevent default action 
+					    var proceed = true;
+					    var form = this;
+					    
+					    //simple validation at client's end
+					    //loop through each field and we simply change border color to red for invalid fields       
+					    $(form).find(':required').each(function(){
+					        $(this).css('border-color',''); 
+					        if(!$.trim($(this).val())){ //if this field is empty 
+					            $(this).css('border-color','red'); //change border color to red   
+					            proceed = false; //set do not proceed flag
+					        }
+					        //check invalid email
+					        var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/; 
+					        if($(this).attr("type")=="email" && !email_reg.test($.trim($(this).val()))){
+					            $(this).css('border-color','red'); //change border color to red   
+					            proceed = false; //set do not proceed flag              
+					        }   
 
-                        	<input value="Submit" id="submit-button" class="aspire-contact-submit" type="submit">
-
-                        </div>
-                        
-                    </form>
-                    <!--end contact form -->
-					
+					    }).keyup(function() { //reset previously set border colors on .keyup()
+					        $(this).css('border-color',''); 
+					    }).change(function() {  //for select box
+					        $(this).css('border-color',''); 
+					    }); 
+					    
+					    if(proceed){ //everything looks good! proceed...
+					        //get input field values data to be sent to server
+					        var post_url = $(this).attr("action"); //get form action url
+					        var request_method = $(this).attr("method"); //get form GET/POST method
+					        var form_data = $(this).serialize(); //Encode form elements for submission
+					        
+					        //Ajax post data to server
+					        $.ajax({
+					            url : post_url,
+					            type: request_method,
+					            dataType : 'json',
+					            data : form_data
+					        })
+					        .done(function(response){ 
+					            if(response.type == 'error'){ //load json data from server and output message     
+					                output = '<div class="error">'+response.text+'</div>';
+					            }else{
+					                $(form)[0].reset(); //reset this form upon success
+					                output = '<div class="success">'+response.text+'</div>';
+					            }
+					            $("#contact_results").html(output);
+					        });
+					    }
+					});
+					</script>
 				</div>
 				<!--end col md 10 -->
 

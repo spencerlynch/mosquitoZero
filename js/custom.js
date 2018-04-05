@@ -54,26 +54,8 @@ $(window).on('load', function(){
 
 
 	/* ========================================================== */
-	/*   Newsletter                                               */
+	/*   FUNFACTS                                              */
 	/* ========================================================== */
-	
-	$('.newsletter_box .newsletter_form').each( function(){
-		var form = $(this);
-		//form.validate();
-		form.submit(function(e) {
-			if (!e.isDefaultPrevented()) {
-				jQuery.post(this.action,{
-					'email':$('input[name="nf_email"]').val(),
-				},function(data){
-					form.fadeOut('fast', function() {
-						$(this).siblings('p.newsletter_success_box').show();
-					});
-				});
-				e.preventDefault();
-			}
-		});
-	});	
-	
 
 	/* ========================================================== */
 	/*   Register                                                 */
@@ -151,11 +133,6 @@ $(window).on('load', function(){
             }
             $("#contact_form #contact_results").html(output);
         });
-    }
-
-	
-});
-
 
 	/* ========================================================== */
 	/*   Animated-Features                                        */

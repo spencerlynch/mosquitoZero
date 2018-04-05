@@ -110,7 +110,7 @@ a:hover, a:focus, a:active, a:visited {
 
 iframe {
     max-width: 100%;
-    border: none;
+    border: 2px;
 }
 
 .white-text{ 
@@ -435,7 +435,7 @@ iframe {
 /* ========================================================== */
 
 .home-bkgaspire {
-	background: url(../images/tHill_hero.jpg) top center no-repeat;
+	background: url(../images/mz_sunset.jpg) center no-repeat;
 	background-size: cover;
 	padding-top: 120px;
 	height: 100%;
@@ -590,7 +590,7 @@ a:hover .btn-white-aspire{
 }
 
 .section-white-aspire .aspire-headings{
-	padding: 60px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 }
 
 .aspire-headings h2{
@@ -605,6 +605,7 @@ a:hover .btn-white-aspire{
 .aspire-headings p{
 	font-size: 16px;
 	line-height: 26px;
+	color: #353637;
 }
 
 ul.aspire-list li {
@@ -619,6 +620,12 @@ ul.aspire-list li i{
 .section-white-aspire img{
 	width: 480px;
 }
+
+/* ========================================================== */
+/* 			                FUNFACTS                        */
+/* ========================================================== */
+
+
 
 /* ========================================================== */
 /* 			               06. REVIEWS                        */
@@ -983,9 +990,9 @@ input[type=number]::-webkit-outer-spin-button {
 /* VIDEO */
 
 .aspire-video-wrapper{
-	background: url(../images/hero.jpg) top center no-repeat;
+	background: url(../images/mz_thill.jpg) top center no-repeat;
 	background-size: cover;
-	padding: 120px 0;
+	padding: 75px 0;
 	position: relative;
 	text-align: center;
 }
@@ -1013,7 +1020,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 	.hero-bkgaspire-headings{padding: 40px 60px 40px 60px; margin-bottom: 10px;}
 
-	.section-white-aspire{	padding-top: 40px;}
+	.section-white-aspire{	padding-top: 0px;}
 
 	.section-white-aspire .aspire-headings{ padding-top: 40px;}
 

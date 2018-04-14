@@ -519,7 +519,7 @@
 
 					</div>	
 
-					<div class="form-style">
+					<!-- <div class="form-style">
 					    <div class="form-style-heading"><h3>Mosquito Zero Fights the Bite, FOR YOU!</h3></div>
 					    <div id="contact_results"></div>
 					    <div id="contact_body">
@@ -544,7 +544,32 @@
 					        </label>
 					     </form>
 					    </div>
-					</div>
+					</div> -->
+					<form action="php/contact_me.php" method="post">
+						<div class="field name-box">
+							<input type="text" name="sender_Name" id="name" placeholder="Who Are You?"/>
+							<label for="name">Name</label>
+							<!-- <span class="ss-icon">check</span> -->
+						</div>
+
+						<div class="field email-box">
+							<input type="text" id="sender_Email" placeholder="name@email.com"/>
+							<label for="email">Email</label>
+							<!-- <span class="ss-icon">check</span> -->
+						</div>
+						<div class="field phone_box">
+							<input type="text" id="phone_Number" placeholder="Your Phone Number"/>
+							<label for="phone">Phone</label>
+
+						</div>
+						<div class="field msg-box">
+							<textarea id="message" rows="4" placeholder="Your message goes here..."/></textarea>
+							<label for="msg">MSG</label>
+							<!-- <span class="ss-icon">check</span> -->
+						</div>
+
+						<input class="button" type="submit" value="Send" />
+  					</form>
 
 					<!-- include Google hosted jQuery Library -->
 					<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>

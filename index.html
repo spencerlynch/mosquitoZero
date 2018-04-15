@@ -221,7 +221,7 @@
   	<!--end section dark -->
 
   	<!--begin section white-->
-  	<section class="section-white-aspire" id="about">
+  	<section class="section-white" id="about">
 
 	    <!--begin container -->
 	    <div class="container">
@@ -287,7 +287,7 @@
 					<h4 style="border-radius: 30px; background: #99cc66; opacity: 0.8; padding: 20px;">
 					The <b>Deadliest Creature</b> on <b>Earth</b>...
 					</h4>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/EocfgIQyznA" frameborder="0">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/EocfgIQyznA" frameborder="0"></iframe>
 				</div>
 				<!--end col md 6 -->
 				
@@ -301,10 +301,10 @@
   	<!--end section video -->
 
   	<!--begin section banners-->
-  	<section>
+  	<section class="section-light" id="faq">
 
 	    <!--begin container -->
-	    <div class="container-fluid" id="faq">
+	    <div class="container">
 
 	      	<!--begin row -->
 	      	<div class="row">
@@ -402,7 +402,7 @@
 				<!--begin col md 6 -->
 				<div class="col-md-6 col-sm-12">
 					<h3>Our Feed</h3>
-					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBGMosquitoZero%2F&tabs=timeline&width=375&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="375" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBGMosquitoZero%2F&tabs=timeline&width=375&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="375" height="500" style="border:none; overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 					
 				</div>
 				<!--end col md 6 -->	
@@ -518,114 +518,26 @@
 					<div class="aspire-headings margin-bottom-40">
 
 					</div>	
+					<!-- Contact form -->
+					<form name="contactform" method="post" action="php/contact_me.php">
+						<div id="contact_results"></div>
+		                <div class="form-group">
+		                   <input type="text" name="name" class="form-control input-field" placeholder="First/Last Name" required>
+		                </div>
+		                <div class="form-group">
+		                   <input type="email" name="email" class="form-control input-field"  placeholder="Email" required>
+		                </div>
+		                <div class="form-group">
+		                   <input type="text" name="subject" class="form-control" placeholder="Free Quote Inquiry" required>
+		                </div>
+		                <div class="form-group">
+		                   <textarea name="message" id="message" class="textarea-field form-control" rows="4" placeholder="Enter your message" required></textarea>
+		                </div>
+		                <div class="form-group">
+		                   <button type="submit" id="submit_btn" value="Submit" class="btn btn-default pull-right">Send</button>
+		                </div>              
+		             </form><!--/Contact form -->
 
-					<!-- <div class="form-style">
-					    <div class="form-style-heading"><h3>Mosquito Zero Fights the Bite, FOR YOU!</h3></div>
-					    <div id="contact_results"></div>
-					    <div id="contact_body">
-					    <form action="php/contact_me.php" method="POST" id="my_form" novalidate>
-					        <label><span>First Name <span class="required">*</span></span>
-					            <input type="text" name="user_firstName" required class="input-field"/>
-					        </label>
-					        <label><span>Last Name <span class="required">*</span></span>
-					            <input type="text" name="user_lastName" required class="input-field"/>
-					        </label>
-					        <label><span>Email <span class="required">*</span></span>
-					            <input type="email" name="user_email" required class="input-field"/>
-					        </label>
-					        <label><span>Phone </span>
-					            <input type="number" name="phone_number" maxlength="15" class="tel-number-field long" required/>
-					        </label>
-					        <label for="field5"><span>Message <span class="required">*</span></span>
-					            <textarea name="message" id="message" class="textarea-field" required></textarea>
-					        </label>
-					        <label>
-					            <span>&nbsp;</span><input type="submit" id="submit_btn" value="Submit" />
-					        </label>
-					     </form>
-					    </div>
-					</div> -->
-					<form action="php/contact_me.php" method="post">
-						<div class="field name-box">
-							<input type="text" name="sender_Name" id="name" placeholder="Who Are You?"/>
-							<label for="name">Name</label>
-							<!-- <span class="ss-icon">check</span> -->
-						</div>
-
-						<div class="field email-box">
-							<input type="text" id="sender_Email" placeholder="name@email.com"/>
-							<label for="email">Email</label>
-							<!-- <span class="ss-icon">check</span> -->
-						</div>
-						<div class="field phone_box">
-							<input type="text" id="phone_Number" placeholder="Your Phone Number"/>
-							<label for="phone">Phone</label>
-
-						</div>
-						<div class="field msg-box">
-							<textarea id="message" rows="4" placeholder="Your message goes here..."/></textarea>
-							<label for="msg">MSG</label>
-							<!-- <span class="ss-icon">check</span> -->
-						</div>
-
-						<input class="button" type="submit" value="Send" />
-  					</form>
-
-					<!-- include Google hosted jQuery Library -->
-					<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-					<!-- Start jQuery code -->
-					<script type="text/javascript">
-					$("#my_contact_form").submit(function(e){
-					    e.preventDefault(); //prevent default action 
-					    var proceed = true;
-					    var form = this;
-					    
-					    //simple validation at client's end
-					    //loop through each field and we simply change border color to red for invalid fields       
-					    $(form).find(':required').each(function(){
-					        $(this).css('border-color',''); 
-					        if(!$.trim($(this).val())){ //if this field is empty 
-					            $(this).css('border-color','red'); //change border color to red   
-					            proceed = false; //set do not proceed flag
-					        }
-					        //check invalid email
-					        var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/; 
-					        if($(this).attr("type")=="email" && !email_reg.test($.trim($(this).val()))){
-					            $(this).css('border-color','red'); //change border color to red   
-					            proceed = false; //set do not proceed flag              
-					        }   
-
-					    }).keyup(function() { //reset previously set border colors on .keyup()
-					        $(this).css('border-color',''); 
-					    }).change(function() {  //for select box
-					        $(this).css('border-color',''); 
-					    }); 
-					    
-					    if(proceed){ //everything looks good! proceed...
-					        //get input field values data to be sent to server
-					        var post_url = $(this).attr("action"); //get form action url
-					        var request_method = $(this).attr("method"); //get form GET/POST method
-					        var form_data = $(this).serialize(); //Encode form elements for submission
-					        
-					        //Ajax post data to server
-					        $.ajax({
-					            url : post_url,
-					            type: request_method,
-					            dataType : 'json',
-					            data : form_data
-					        })
-					        .done(function(response){ 
-					            if(response.type == 'error'){ //load json data from server and output message     
-					                output = '<div class="error">'+response.text+'</div>';
-					            }else{
-					                $(form)[0].reset(); //reset this form upon success
-					                output = '<div class="success">'+response.text+'</div>';
-					            }
-					            $("#contact_results").html(output);
-					        });
-					    }
-					});
-					</script>
 				</div>
 				<!--end col md 10 -->
 

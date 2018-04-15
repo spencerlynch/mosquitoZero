@@ -435,8 +435,9 @@ iframe {
 /* ========================================================== */
 
 .home-bkgaspire {
-	background: url(../images/mz_sunset.jpg) center no-repeat;
+	background: url(../images/thill_hero.jpg) center no-repeat;
 	background-size: cover;
+	background-position: fixed;
 	padding-top: 120px;
 	height: 100%;
 }
@@ -585,11 +586,11 @@ a:hover .btn-white-aspire{
 /* 			               05. SERVICES/FEATURES              */
 /* ========================================================== */
 
-.section-white-aspire{
+.section-white{
 	padding-top: 40px;
 }
 
-.section-white-aspire .aspire-headings{
+.section-white .aspire-headings{
 	padding: 10px 10px 10px 10px;
 }
 
@@ -617,7 +618,7 @@ ul.aspire-list li i{
 	margin-right: 10px;
 }
 
-.section-white-aspire img{
+.section-white img{
 	width: 480px;
 }
 
@@ -981,7 +982,7 @@ form input[type="submit"]:focus {
 /* VIDEO */
 
 .aspire-video-wrapper{
-	background: url(../images/mz_thill.jpg) top center no-repeat;
+	background: url(../images/coryTruck.jpg) top center no-repeat;
 	background-size: cover;
 	padding: 75px 0;
 	position: relative;

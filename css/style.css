@@ -791,112 +791,116 @@ ul.aspire-list li i{
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
-form {
-  width: 58.33333%;
-  margin: 0 auto;
+/* form style */
+.form-style{
+	max-width: 450px;
+	padding: 40px 30px 40px 40px;
+	font: 13px Montserrat, sans-serif;
+	margin: 50px auto;
 }
-form .field {
-  width: 100%;
-  position: relative;
-  margin-bottom: 15px;
+.form-style-heading{
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding-bottom: 3px;
 }
-form .field label {
-  text-transform: uppercase;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #99cc66;
-  width: 100%;
-  padding: 18px 0;
-  font-size: 1.45em;
-  letter-spacing: 0.075em;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+.form-style label{
+    display: block;
+    margin: 0px 0px 15px 0px;
 }
-form .field label + span {
-  font-family: 'SSStandard';
-  opacity: 0;
-  color: white;
-  display: block;
-  position: absolute;
-  top: 12px;
-  left: 7%;
-  font-size: 2.5em;
-  text-shadow: 1px 2px 0 #cd6302;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+.form-style label > span{
+    width: 100px;
+    font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
 }
-form .field input[type="text"], form .field textarea {
-  border: none;
-  background: #e8e9ea;
-  width: 80.5%;
-  margin: 0;
-  padding: 18px 0;
-  padding-left: 19.5%;
-  color: #99cc66;
-  font-size: 1.4em;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+.form-style span.required{
+    color:red;
 }
-form .field input[type="text"]#message, form .field textarea#message {
-  height: 25px;
-  resize: none;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+.form-style .tel-number-field{
+    width: 40px;
+    text-align: center;
 }
-form .field input[type="text"]:focus, form .field textarea:focus, form .field input[type="text"].focused, form .field textarea.focused {
-  outline: none;
+.form-style  .long{
+    width: 120px;
 }
-form .field input[type="text"]:focus#message, form .field textarea:focus#message, form .field input[type="text"].focused#message, form .field textarea.focused#message {
-  padding-bottom: 150px;
+.form-style input.input-field{
+    width: 48%;
+   
 }
-form .field input[type="text"]:focus + label, form .field textarea:focus + label, form .field input[type="text"].focused + label, form .field textarea.focused + label {
-  width: 18%;
-  background: #353637;
-  color: #99cc66;
+
+.form-style input.input-field,
+.form-style .tel-number-field,
+.form-style .textarea-field,
+ .form-style .select-field{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out; 
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px 1px 4px #EBEBEB;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
 }
-form .field input[type="text"].focused + label, form .field textarea.focused + label {
-  color: #353637;
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
-form .field:hover label {
-  width: 18%;
-  background: #99cc66;
-  color: white;
+
+.form-style .input-field:focus,
+.form-style .tel-number-field:focus,
+.form-style .textarea-field:focus,  
+.form-style .select-field:focus{
+    border: 1px solid #0C0;
 }
-form input[type="submit"] {
-  background: #353637;
-  color: white;
-  -webkit-appearance: none;
-  border: none;
-  text-transform: uppercase;
-  position: relative;
-  padding: 13px 50px;
-  font-size: 1.4em;
-  letter-spacing: 0.1em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
+.form-style .textarea-field{
+    height:100px;
+    width: 55%;
 }
-form input[type="submit"]:hover {
-  background: #99cc66;
-  color: #353637;
+.form-style input[type="button"],
+.form-style input[type="submit"] {
+    background-color: #99cc66;
+    border: 1px solid #ddd;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
 }
-form input[type="submit"]:focus {
-  outline: none;
-  background: #cd6302;
+.form-style input[type="button"]:hover,
+.form-style input[type="submit"]:hover {
+    background-color: #99cc66;
+}
+.form-style .success{
+	background: #D8FFC0;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 5px 0px;
+	border: none;
+	font-weight: bold;
+	color: #2E6800;
+	border-left: 3px solid #2E6800;
+}
+.form-style .error {
+	background: #FFE8E8;
+	padding: 5px 10px 5px 10px;
+	margin: 0px 0px 5px 0px;
+	border: none;
+	font-weight: bold;
+	color: #FF0000;
+	border-left: 3px solid #FF0000;
 }
 
 /* ========================================================== */

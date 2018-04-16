@@ -619,7 +619,9 @@ ul.aspire-list li i{
 }
 
 .section-white img{
-	width: 480px;
+	width: auto;
+	border-radius: 20px;
+	padding: 15px;
 }
 
 /* ========================================================== */
@@ -778,7 +780,7 @@ ul.aspire-list li i{
 /* ========================================================== */
 
 .contact-section {
-	background: url(../images/grass.png) top center no-repeat;
+	background: url(../images/grass.png) bottom center no-repeat;
 	background-size: cover;
 }
 
@@ -791,114 +793,10 @@ ul.aspire-list li i{
     letter-spacing: 1px;
     margin-bottom: 20px;
 }
-form {
-  width: 58.33333%;
-  margin: 0 auto;
-}
-form .field {
-  width: 100%;
-  position: relative;
-  margin-bottom: 15px;
-}
-form .field label {
-  text-transform: uppercase;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #99cc66;
-  width: 100%;
-  padding: 18px 0;
-  font-size: 1.45em;
-  letter-spacing: 0.075em;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
-}
-form .field label + span {
-  font-family: 'SSStandard';
-  opacity: 0;
-  color: white;
-  display: block;
-  position: absolute;
-  top: 12px;
-  left: 7%;
-  font-size: 2.5em;
-  text-shadow: 1px 2px 0 #cd6302;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
-}
-form .field input[type="text"], form .field textarea {
-  border: none;
-  background: #e8e9ea;
-  width: 80.5%;
-  margin: 0;
-  padding: 18px 0;
-  padding-left: 19.5%;
-  color: #99cc66;
-  font-size: 1.4em;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-form .field input[type="text"]#message, form .field textarea#message {
-  height: 25px;
-  resize: none;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
-}
-form .field input[type="text"]:focus, form .field textarea:focus, form .field input[type="text"].focused, form .field textarea.focused {
-  outline: none;
-}
-form .field input[type="text"]:focus#message, form .field textarea:focus#message, form .field input[type="text"].focused#message, form .field textarea.focused#message {
-  padding-bottom: 150px;
-}
-form .field input[type="text"]:focus + label, form .field textarea:focus + label, form .field input[type="text"].focused + label, form .field textarea.focused + label {
-  width: 18%;
-  background: #353637;
-  color: #99cc66;
-}
-form .field input[type="text"].focused + label, form .field textarea.focused + label {
-  color: #353637;
-}
-form .field:hover label {
-  width: 18%;
-  background: #99cc66;
-  color: white;
-}
-form input[type="submit"] {
-  background: #353637;
-  color: white;
-  -webkit-appearance: none;
-  border: none;
-  text-transform: uppercase;
-  position: relative;
-  padding: 13px 50px;
-  font-size: 1.4em;
-  letter-spacing: 0.1em;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  -webkit-transition: all 333ms ease-in-out;
-  -moz-transition: all 333ms ease-in-out;
-  -o-transition: all 333ms ease-in-out;
-  -ms-transition: all 333ms ease-in-out;
-  transition: all 333ms ease-in-out;
-}
-form input[type="submit"]:hover {
-  background: #99cc66;
-  color: #353637;
-}
-form input[type="submit"]:focus {
-  outline: none;
-  background: #cd6302;
-}
 
+.contact-section a{
+	color: #99cc66;
+}
 /* ========================================================== */
 /* 			                10. FOOTER                        */
 /* ========================================================== */

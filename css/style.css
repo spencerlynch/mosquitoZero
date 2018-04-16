@@ -619,7 +619,9 @@ ul.aspire-list li i{
 }
 
 .section-white img{
-	width: 480px;
+	width: auto;
+	border-radius: 20px;
+	padding: 15px;
 }
 
 /* ========================================================== */
